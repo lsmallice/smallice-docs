@@ -1,3 +1,6 @@
 name = "smallice-docs"
 pages_build_output_dir = "src/.vuepress/dist"
 compatibility_date = "2026-05-12"
+
+[assets]
+directory = "src/.vuepress/dist"
