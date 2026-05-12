@@ -14,15 +14,15 @@ actions:
     icon: material-symbols:api
     link: /docs/api/overview.html
 features:
-  - title: 易于维护
-    icon: material-symbols:edit-document
-    details: 使用 Markdown 编写内容，适合产品说明、教程、接口文档和知识库。
-  - title: GitHub 友好
-    icon: mdi:github
-    details: 支持编辑链接、贡献者、最近更新时间和 GitHub Pages 自动部署。
-  - title: 主题完整
-    icon: material-symbols:palette
-    details: 内置导航栏、侧边栏、搜索、代码复制和多种 Markdown 增强能力。
+  - title: 统一 API 端点
+    icon: material-symbols:api
+    details: 客户端统一配置 https://api.smallice.chat，支持 OpenAI 兼容工具与常见开发客户端接入。
+  - title: 主站密钥管理
+    icon: material-symbols:key
+    details: 在 smallice.chat 登录后创建和管理 API Key，查看额度、请求记录与使用情况。
+  - title: 快速接入指南
+    icon: material-symbols:terminal
+    details: 提供 Codex、Claude Code、Cherry Studio 和 SDK 示例，按步骤复制配置即可开始使用。
 ---
 
 ## 开始使用
