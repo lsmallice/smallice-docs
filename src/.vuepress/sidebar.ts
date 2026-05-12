@@ -27,6 +27,31 @@ export const sidebar: SidebarOptions = {
         "overview",
       ],
     },
+    {
+      text: "CLI 配置",
+      icon: "material-symbols:terminal",
+      prefix: "cli-config/",
+      children: [
+        "cc-switch",
+        "claude-code",
+        "codex",
+        "gemini",
+      ],
+    },
+    {
+      text: "第三方使用",
+      icon: "streamline-freehand-color:plugin-jigsaw-puzzle",
+      prefix: "extensions/",
+      children: [
+        "curl",
+        "cherry-studio",
+        "opencode",
+        "kilo-code",
+        "zed",
+        "hermes",
+        "wsl",
+      ],
+    },
   ],
   "/docs/guide/": [
     {
@@ -53,6 +78,33 @@ export const sidebar: SidebarOptions = {
       icon: "material-symbols:api",
       children: [
         "overview",
+      ],
+    },
+  ],
+  "/docs/cli-config/": [
+    {
+      text: "CLI 配置",
+      icon: "material-symbols:terminal",
+      children: [
+        "cc-switch",
+        "claude-code",
+        "codex",
+        "gemini",
+      ],
+    },
+  ],
+  "/docs/extensions/": [
+    {
+      text: "第三方使用",
+      icon: "streamline-freehand-color:plugin-jigsaw-puzzle",
+      children: [
+        "curl",
+        "cherry-studio",
+        "opencode",
+        "kilo-code",
+        "zed",
+        "hermes",
+        "wsl",
       ],
     },
   ],
