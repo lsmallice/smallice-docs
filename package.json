@@ -9,6 +9,7 @@
     "docs:build": "vuepress build src",
     "docs:build:github": "DOCS_BASE=/smallice-docs/ DOCS_HOSTNAME=https://lsmallice.github.io vuepress build src",
     "docs:build:edgeone": "DOCS_BASE=/ DOCS_HOSTNAME=https://docs.smallice.chat vuepress build src",
+    "docs:build:cloudflare": "DOCS_BASE=/ DOCS_HOSTNAME=https://docs.smallice.chat vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:clean-build": "vuepress build src --clean-cache"
   },
