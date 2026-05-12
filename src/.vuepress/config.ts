@@ -6,7 +6,7 @@ import { navbar } from "./navbar.js";
 import { sidebar } from "./sidebar.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/smallice-docs/",
   lang: "zh-CN",
   title: "我的文档",
   description: "一个使用 VuePress Theme Hope 搭建的文档站",
