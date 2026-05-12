@@ -3,6 +3,14 @@ import type { SidebarOptions } from "vuepress-theme-hope";
 export const sidebar: SidebarOptions = {
   "/docs/": [
     {
+      text: "使用说明",
+      icon: "material-symbols:menu-book",
+      prefix: "guide/",
+      children: [
+        "smallice-chat",
+      ],
+    },
+    {
       text: "快速开始",
       icon: "fa6-solid:rocket",
       prefix: "quick-start/",
@@ -17,6 +25,15 @@ export const sidebar: SidebarOptions = {
       prefix: "api/",
       children: [
         "overview",
+      ],
+    },
+  ],
+  "/docs/guide/": [
+    {
+      text: "使用说明",
+      icon: "material-symbols:menu-book",
+      children: [
+        "smallice-chat",
       ],
     },
   ],

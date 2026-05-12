@@ -15,6 +15,6 @@ tag:
 ## 示例
 
 ```bash
-curl https://api.example.com/v1/example \
+curl https://api.smallice.chat/v1/example \
   -H "Authorization: Bearer $API_KEY"
 ```

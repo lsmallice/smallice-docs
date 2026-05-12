@@ -3,12 +3,12 @@ home: true
 icon: home
 title: 首页
 heroImage: /logo.svg
-heroText: 我的文档
-tagline: 用 VuePress Theme Hope 搭建的静态文档站
+heroText: Smallice Docs
+tagline: Smallice Chat 使用说明与 API 文档
 actions:
-  - text: 快速开始
+  - text: 使用说明
     icon: fa6-solid:rocket
-    link: /docs/quick-start/intro.html
+    link: /docs/guide/smallice-chat.html
     type: primary
   - text: API 文档
     icon: material-symbols:api
@@ -25,6 +25,6 @@ features:
     details: 内置导航栏、侧边栏、搜索、代码复制和多种 Markdown 增强能力。
 ---
 
-## 开始写文档
+## 开始使用
 
-你可以从 `src/docs/quick-start/intro.md` 开始替换内容。
+你可以从 [Smallice Chat 使用说明](./docs/guide/smallice-chat.md) 开始阅读。

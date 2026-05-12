@@ -8,20 +8,20 @@ import { sidebar } from "./sidebar.js";
 export default defineUserConfig({
   base: "/smallice-docs/",
   lang: "zh-CN",
-  title: "我的文档",
-  description: "一个使用 VuePress Theme Hope 搭建的文档站",
+  title: "Smallice Docs",
+  description: "Smallice Chat 使用说明与 API 文档",
 
   bundler: viteBundler(),
 
   theme: hopeTheme({
-    hostname: "https://example.com",
+    hostname: "https://lsmallice.github.io",
     logo: "/logo.svg",
     repo: "lsmallice/smallice-docs",
     docsDir: "src",
 
     author: {
-      name: "你的名字",
-      url: "https://example.com",
+      name: "Smallice",
+      url: "https://smallice.chat",
     },
 
     navbar,
@@ -33,7 +33,7 @@ export default defineUserConfig({
     editLink: true,
 
     displayFooter: true,
-    footer: "MIT Licensed | Copyright © 2026",
+    footer: "Smallice Chat Docs | Copyright © 2026",
 
     markdown: {
       tabs: true,

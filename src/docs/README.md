@@ -10,6 +10,7 @@ date: 2026-05-12
 
 ## 快速入口
 
+- [Smallice Chat 使用说明](./guide/smallice-chat.md)
 - [项目简介](./quick-start/intro.md)
 - [安装说明](./quick-start/install.md)
 - [API 概览](./api/overview.md)
