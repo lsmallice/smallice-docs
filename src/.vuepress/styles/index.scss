@@ -1,0 +1,25 @@
+.vp-hero-info {
+  max-width: 760px;
+}
+
+.vp-feature-item {
+  border-radius: 8px;
+}
+
+.docs-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.docs-card {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 18px;
+  background: var(--vp-c-bg-elv);
+}
+
+.docs-card h3 {
+  margin-top: 0;
+}

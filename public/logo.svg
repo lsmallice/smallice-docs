@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Docs logo">
+  <rect width="160" height="160" rx="32" fill="#2563eb"/>
+  <path d="M45 48h70a10 10 0 0 1 10 10v56a10 10 0 0 1-10 10H45a10 10 0 0 1-10-10V58a10 10 0 0 1 10-10Z" fill="#fff"/>
+  <path d="M55 70h50M55 86h50M55 102h34" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+</svg>
