@@ -5,8 +5,11 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { navbar } from "./navbar.js";
 import { sidebar } from "./sidebar.js";
 
+const base = process.env.DOCS_BASE ?? "/smallice-docs/";
+const hostname = process.env.DOCS_HOSTNAME ?? "https://lsmallice.github.io";
+
 export default defineUserConfig({
-  base: "/smallice-docs/",
+  base,
   lang: "zh-CN",
   title: "Smallice Docs",
   description: "Smallice Chat 使用说明与 API 文档",
@@ -14,7 +17,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: hopeTheme({
-    hostname: "https://lsmallice.github.io",
+    hostname,
     logo: "/logo.svg",
     repo: "lsmallice/smallice-docs",
     docsDir: "src",
